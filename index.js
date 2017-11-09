@@ -18,10 +18,12 @@ function divide (a, b) {
 divide(2, 5)
 
 function inc (n) {
-  return n++
+  var i = 1
+  return i++
 }
 inc(5)
 function dec (n) {
+  var n = 1
   return n--
 }
 dec(3)
