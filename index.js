@@ -2,10 +2,12 @@ function add (a, b) {
   return a + b
 }
 add(5, 2)
+
 function substract (a, b) {
   return a - b
 }
 substract(2, 4)
+
 function multiply (a, b) {
   return a * b
 }
