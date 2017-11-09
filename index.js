@@ -16,17 +16,18 @@ function divide (a, b) {
   return a / b
 }
 divide(2, 5)
-function inc (a) {
-  return a++
+
+function inc (n) {
+  return n++
 }
 inc(5)
-function dec (a) {
-  return a--
+function dec (n) {
+  return n--
 }
 dec(3)
-function makeInt (a) {
-  return parseInt(a)
-  return parseInt(a, 10)
+function makeInt (n) {
+  return parseInt(n)
+  return parseInt(n, 10)
 }
 makeInt('10')
 makeInt('wjafpjwf')
