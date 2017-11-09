@@ -34,4 +34,3 @@ function preserveDecimal (a) {
 }
 preserveDecimal(2.222)
 preserveDecimal('sldkjflksjf')
-
