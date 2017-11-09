@@ -18,13 +18,11 @@ function divide (a, b) {
 divide(2, 5)
 
 function inc (n) {
-  var i = 1
-  return i++
+  return ++n
 }
 inc(5)
 function dec (n) {
-  var n = 1
-  return n--
+  return --n
 }
 dec(3)
 function makeInt (n) {
